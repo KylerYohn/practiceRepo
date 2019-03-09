@@ -35,10 +35,11 @@ var QueryUrl = "https://api.nytimes.com/svc/movies/v2/reviews/picks.json?api-key
 //=======================================================GIANT BOMB API (works sorta)
 $.ajax({
     url: "https://www.giantbomb.com/api/user_reviews/?api_key=6d4d56add8ea2c13803b154586967c3fc3973982 ",
-    method:"GET"
+    method:"GET",
+    header: "Access-Control-Allow-Origin=*"
 }).then(function(response){
     console.log(response);
-})
+});
 
 // var apikey = "nwpnm8fp3yqn8ataswweg546";
 // var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
