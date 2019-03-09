@@ -51,7 +51,7 @@ var QueryUrl = "https://api.nytimes.com/svc/movies/v2/reviews/picks.json?api-key
 // })
 
 var apikey = "nwpnm8fp3yqn8ataswweg546";
-var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+var baseUrl = "https://api.rottentomatoes.com/api/public/v1.0";
 
 // construct the uri with our apikey
 var moviesSearchUrl = baseUrl + '/movies.json?apikey=' + apikey;
